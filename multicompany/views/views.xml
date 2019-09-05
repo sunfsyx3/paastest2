@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+        <menuitem name="多公司权限"
+                  id="company_menu_root"
+                  sequence="0"/>
+
+        <menuitem name="记录"
+                  id="multi_company__menu_"
+                  action="multi_company_action"
+                  parent="company_menu_root"
+                  sequence="10"/>
+
+  </data>
+</odoo>

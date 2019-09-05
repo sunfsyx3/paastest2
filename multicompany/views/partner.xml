@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+        <record model="ir.ui.view" id="multi_company_list">
+            <field name="name">multi_company list</field>
+            <field name="model">multi.company</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="company_id"/>
+                    <field name="description"/>
+                    <field name="user_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="multi_company_action">
+            <field name="name">记录</field>
+            <field name="res_model">multi.company</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="multi_company_list"/>
+            <field name="view_mode">tree,kanban,form</field>
+        </record>
+
+  </data>
+</odoo>
