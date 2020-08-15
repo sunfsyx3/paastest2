@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "图书馆abc",
-    'summary': "图书馆",
+    'name': "图书馆ab",
+    'summary': "图书馆abc",
     'description': "图书馆",
     'author': "www.mypscloud.com",
     'website': 'https://www.mypscloud.com/',
